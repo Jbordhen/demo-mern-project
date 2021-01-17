@@ -49,7 +49,7 @@ app.use((error, req, res, next) => {
 
 mongoose
     .connect(
-        'mongodb+srv://jbordhen:mongodb123@cluster0.cfi3i.mongodb.net/mern?retryWrites=true&w=majority'
+        'mongodb+srv://username:password@cluster0.cfi3i.mongodb.net/mern?retryWrites=true&w=majority'
     )
     .then(() => {
         app.listen(5000);
